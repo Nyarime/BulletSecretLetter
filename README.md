@@ -16,3 +16,6 @@ CREATE TABLE IF NOT EXISTS `note` (
 
 ## Demo Website
 You can visit on https://biu.li
+
+## Use the following items for secondary development
+https://github.com/guillaC/privateNote
