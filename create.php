@@ -47,9 +47,9 @@ if (isset($_POST["message"],$_POST["password"])){
       </form>
       <hr>
       <ol>
-        <li>Create a note and get a link</li>
-        <li>Copy the link and send it to whom you want to read the note</li>
-        <li>The note will self-destruct after being read</li>
+         <li>Create a note you want to send and set an encrypted password</li>
+         <li>Copy the created link to the person who wants to whom you want to read the note</li>
+         <li>If the note is ared, the note will self-destruct and the link will expire after reading</li>
       </ol>
       <p>© 2021 <a href="https://idc.moe">IDC.MOE</a> All Rights Reserved.</p>
       <?php
