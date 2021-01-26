@@ -3,7 +3,7 @@ One-time encrypted message self-destruct after reading.
 
 ## MySQL
 
-### CREATE DATABASE privatenote
+### CREATE DATABASE BulletSecretLetter
 
 ### Create table
 
@@ -13,3 +13,6 @@ CREATE TABLE IF NOT EXISTS `note` (
 ) 
 
 ### edit 'sql.php'
+
+## Demo Website
+You can visit on https://biu.li
