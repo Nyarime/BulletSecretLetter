@@ -1,5 +1,7 @@
-# BulletSecretLetter
+# Bullet Secret Letter
 One-time encrypted message self-destruct after reading.
+
+** This is the community open source version
 
 ## MySQL
 
