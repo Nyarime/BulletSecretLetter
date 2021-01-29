@@ -1,7 +1,7 @@
 # Bullet Secret Letter
 One-time encrypted message self-destruct after reading.
 
-** This is the community open source version
+* This is the community open source version
 
 # Features
 * Added clipboard.js to click and copy the generated link
