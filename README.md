@@ -17,14 +17,20 @@ One-time encrypted message self-destruct after reading.
 ## DataBase
 Here we use MySQL database software, at least MySQL5.6 and above are required. Biu.Li uses MySQL 8.0 database software.
 
-### CREATE DATABASE BulletSecretLetter
+### CREATE DATABASE
 
-* Create table
+Create database
 
+```SQL
+CREATE DATABASE BulletSecretLetter
+```
+Create table
+```SQL
 CREATE TABLE IF NOT EXISTS `note` (
   `id` text NOT NULL,
   `message` text NOT NULL
 ) 
+```
 
 ## Configuration
 ### edit 'sql.php'
