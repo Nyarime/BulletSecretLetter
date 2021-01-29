@@ -2,6 +2,7 @@
 One-time encrypted message self-destruct after reading.
 
 * This is the community open source version
+* If you don’t want to build it, please visit https://biu.li/
 
 # Features
 * Added clipboard.js to click and copy the generated link
