@@ -1,11 +1,3 @@
-<span style="vertical-align: middle; font-size: 36px"><b>Biu.Li</b><sup>Powered by idc.moe</sup></span></p></h1>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-</p>
-
 # Bullet Secret Letter
 One-time encrypted message self-destruct after reading.
 
