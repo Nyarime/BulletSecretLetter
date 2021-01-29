@@ -16,10 +16,10 @@ function getMessage($connection, $id, $password){ // OK
     $sth = $connection->prepare($sql);
     $sth->execute(array(':id' => $id));
     $enregistrements = $sth->fetchObject();
-    if(!$enregistrements) return 'This note was read and destroyed';
+    if(!$enregistrements) return 'This message has been read and destroyed!';
     list($encrypted_data, $iv) = explode('::', base64_decode($enregistrements->message), 2);
     $message = openssl_decrypt($encrypted_data, 'aes-256-cbc', $password, 0, $iv);
-    if (!$message) return 'Password incorrect.';
+    if (!$message) return 'Incorrect Password, unable to decrypt this message.';
     deleteMessage($connection, $id);
     return openssl_decrypt($encrypted_data, 'aes-256-cbc', $password, 0, $iv);
 }
