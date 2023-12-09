@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `note` (
 ### edit 'sql.php'
 
 # Demo Website
-You can visit on https://biu.li
+You can visit on https://nmqu.com
 
 ## Use the following items for secondary development
 https://github.com/guillaC/privateNote
