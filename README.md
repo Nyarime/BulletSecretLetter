@@ -2,7 +2,7 @@
 One-time encrypted message self-destruct after reading.
 
 * This is the community open source version
-* If you don’t want to build it, please visit https://biu.li/
+* If you don’t want to build it, please visit https://nmqu.com
 
 # Features
 * Added clipboard.js to click and copy the generated link
@@ -15,7 +15,7 @@ One-time encrypted message self-destruct after reading.
 ## Web
 
 ## DataBase
-Here we use MySQL database software, at least MySQL5.6 and above are required. Biu.Li uses MySQL 8.0 database software.
+Here we use MySQL database software, at least MySQL5.6 and above are required. NMQU.COM uses MySQL 8.0 database software.
 
 ### CREATE DATABASE
 
